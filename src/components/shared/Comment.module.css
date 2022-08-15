@@ -1,0 +1,105 @@
+.container {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head .profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile strong {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 135px;
+}
+.profile strong p {
+  background-color: #3131c3;
+  color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.head .profile div {
+  margin-left: 10px;
+}
+
+.head .profile div p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.head .travelStatus {
+  margin-top: 10px;
+}
+
+.comment {
+  text-align: justify;
+}
+
+.footerCart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerCart .like div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerCart .like div p {
+  margin: 8px 0px 0px 5px;
+}
+.footerCart .like span {
+  margin: 0;
+}
+
+.footerCart .score {
+  display: flex;
+  align-items: center;
+}
+
+.footerCart .score svg {
+  margin-bottom: 5px;
+}
+
+.footerCart .score p {
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.images {
+  display: grid;
+  grid-auto-rows: 100px;
+  align-items: center;
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
